@@ -1,6 +1,7 @@
 # Sample Django Project on Docker
 
-- [Tutorial Reference](https://www.youtube.com/watch?v=KaSJMDo-aPs)
+- [Docker-Django Tutorial Reference](https://www.youtube.com/watch?v=KaSJMDo-aPs)
+- [Other Docker-Django Tutorials](./docker-django_tutorials_evaluation.md)
 
 ```shell
 touch Dockerfile
@@ -76,7 +77,7 @@ docker image rm [OPTIONS like -f] <image-sha>
 
 ### Deploying it to AWS EC2 using Beanstalk
 
-[AWS beanstalk Documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/single-container-docker.html)	
+[AWS beanstalk dockerizing documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/single-container-docker.html)	
 
 ```
 pip install awsebcli --upgrade
@@ -90,4 +91,6 @@ git commit -m "commit message"
 eb deploy
 eb open
 ```
+
+
 
