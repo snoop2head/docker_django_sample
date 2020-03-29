@@ -147,3 +147,7 @@ _designs/
 exercises/management/commands/OLD_seed_exercise.py
 categories/management/commands/seed_category.py
 categories/management/commands/seed_category_images.py
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

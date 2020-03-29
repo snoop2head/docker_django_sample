@@ -72,3 +72,14 @@ docker images
 docker image rm [OPTIONS like -f] <image-sha>
 ```
 
+
+
+### Deploying it to AWS EC2 using Beanstalk
+
+[AWS beanstalk Documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/single-container-docker.html)	
+
+```
+pip install awsebcli --upgrade
+eb init 
+eb local run --port 5000
+```
