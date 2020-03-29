@@ -83,3 +83,11 @@ pip install awsebcli --upgrade
 eb init 
 eb local run --port 5000
 ```
+
+```shell
+git add .
+git commit -m "commit message"
+eb deploy
+eb open
+```
+
