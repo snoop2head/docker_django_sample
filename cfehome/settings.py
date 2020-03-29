@@ -25,7 +25,10 @@ SECRET_KEY = "c(=5(z-ig4(y9e_%j9oo8q1v2yb490nr7s_gsznp^tasg6_sz&"
 # DEBUG can be True/False or 1/0
 DEBUG = int(os.environ.get("DEBUG", default=1))
 
-ALLOWED_HOSTS = ["http://docker-sample-dev.ap-northeast-2.elasticbeanstalk.com/"]
+ALLOWED_HOSTS = [
+    "http://docker-sample-dev.ap-northeast-2.elasticbeanstalk.com/",
+    "docker-sample-dev.ap-northeast-2.elasticbeanstalk.com",
+]
 
 
 # Application definition
