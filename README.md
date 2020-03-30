@@ -127,21 +127,20 @@ services:
 		# base your database on postgres
 		# use postgres without downloading machine
 		image: postgres
-		
 	# web container
-  web:
-  	build: .
-  	# bash command
-  	command: bash -c "python /code/maange.py migrate --noinput && python /code/manage.py runserver 0.0.0:0:8000"
-  	# code volume to keep track of chunk of data
-  	volumes:
-  		- .:/code
-    # publish port docker image port 8000 -> my machine port 8000 
-  	ports:
-  		- "8000:8000"
-  	# relate container to one anather containers
-  	depends_on:
-  		- db
+	web:
+		build: .
+		# bash command
+		command: bash -c "python /code/maange.py migrate --noinput && python /code/manage.py runserver 0.0.0:0:8000"
+		# code volume to keep track of chunk of data
+		volumes:
+			- .:/code
+		# publish port docker image port 8000 -> my machine port 8000 
+		ports:
+			- "8000:8000"
+		# relate container to one anather containers
+		depends_on:
+			- db
 ```
 
 After configuring in yaml file, start container with shell command.
