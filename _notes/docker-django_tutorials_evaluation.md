@@ -1,4 +1,4 @@
-# Docker & Django
+# Docker & Django tutorials evaluation
 
 
 
@@ -17,10 +17,10 @@
   3.  Good for coworking
 
 * Virtual Machines vs. Docker
-  ![image-20200330195922514](./_notes/image-20200330195922514.png)
+  ![image-20200330195922514](image-20200330195922514.png)
 
 * Introduction to Dockerfiles, images and containers
-  ![image-20200330200326627](./_notes/image-20200330200326627.png)
+  ![image-20200330200326627](image-20200330200326627.png)
 
   Use dockerfile to tell docker how to build your image, where image runs project in a container
 
@@ -186,8 +186,6 @@ docker-compose down
 
 ## 🙌 Hello-World Tutorials
 
-### [Refer to Project Notes](./_notes/README.md)
-
 [Django on Docker Tutorial - A Simple Introduction](https://www.youtube.com/watch?v=KaSJMDo-aPs)
 
 - 완전 기초 튜토리얼: django sample page를 docker에 올리는 거에 의의를 두면 됨.
@@ -231,3 +229,8 @@ https://realpython.com/django-development-with-docker-compose-and-machine/
 
 - docker machine을 써야하는 것 때문에 탈락. 
 - pipenv 같은 virtual environment가 아니라 쌩으로 로컬에서 돌리라는 듯
+
+
+
+
+
