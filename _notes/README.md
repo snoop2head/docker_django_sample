@@ -82,6 +82,7 @@ docker image rm [OPTIONS like -f] <image-sha>
 ```
 pip install awsebcli --upgrade
 eb init 
+eb create
 eb local run --port 5000
 ```
 
