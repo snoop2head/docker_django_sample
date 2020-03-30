@@ -161,13 +161,13 @@ Specify container and run shell scripts.
 --rm is to remove previous container, since we created new container by docker-compose run.
 
 ```shell
-docker-compose run --rm web ./ manage.py makemigrations
+docker-compose run --rm web ./manage.py makemigrations
 ```
 
-Acess to shell just like you use .zsh shell
+Acess to shell just like you use manage.py shell
 
 ```shell
-docker-compose run --rm web ./ manage.py shell
+docker-compose run --rm web ./manage.py shell
 ```
 
 Stop web container / Start web container (without editing images)
