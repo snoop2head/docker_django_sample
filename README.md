@@ -35,7 +35,7 @@
 ### Sample docker file & docker commands
 
 ```dockerfile
-#Getting python file from docker hub
+# Getting python file from docker hub
 FROM python: 3.6
 
 # getting environment variable on console
@@ -43,7 +43,7 @@ ENV PYTHONNUNBUFFERED 1
 
 # copying local file into container's /code/ directory
 COPY ./requirements.txt /code/requirements.txt
-RUN pip install -r /code/requirementst.txt
+RUN pip install -r /code/requirements.txt
 
 # copying the rest of the files into container's /code/ directory
 # container's working directory is /code/
