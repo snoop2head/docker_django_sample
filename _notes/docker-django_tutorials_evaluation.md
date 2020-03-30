@@ -93,7 +93,7 @@ docker container ls
 [Explore bash command in running instance of container](https://youtu.be/v5jfDDg55xs?t=1212)
 
 ```shell
-docker exec -it <contaienr-id> shell
+docker exec -it <container-id> /bin/bash
 ```
 
 - Ctrl + D to get out of container
