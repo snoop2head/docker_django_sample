@@ -10,7 +10,6 @@ touch Dockerfile
 ```dockerfile
 # Base Image
 FROM python:3.6
-
 # create and set working directory
 RUN mkdir /app
 WORKDIR /app
