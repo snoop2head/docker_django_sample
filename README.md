@@ -211,15 +211,14 @@ https://www.youtube.com/watch?v=90LCcim-wHQ
 
 - SH님 코드: https://github.com/feud72/goodreads-server/blob/master/docker-compose.yml
 
+https://docs.docker.com/compose/django/
+
+- official docs임에도 불구하고 버그가 득실득실: downvotes가 400개로써 upvote만큼이나 많음 -> 직접 고침
+- 기존 프로젝트를 dockerizing하는 것이 아니라 새로 프로젝트를 파는 형태.
+
 
 
 ## ☠️ Not really helpful ☠️
-
-https://docs.docker.com/compose/django/
-
-- official docs임에도 불구하고 버그가 득실득실: downvotes가 400개로써 upvote만큼이나 많음
-- 기존 프로젝트를 dockerizing하는 것이 아니라 새로 프로젝트를 파야 함.
-- 심지어 database 등록하는 것도 코드를 빼먹음. 
 
 https://www.youtube.com/watch?v=KN8wuFi2RXM
 
@@ -230,3 +229,4 @@ https://realpython.com/django-development-with-docker-compose-and-machine/
 
 - docker machine을 써야하는 것 때문에 탈락. 
 - pipenv 같은 virtual environment가 아니라 쌩으로 로컬에서 돌리라는 듯
+
