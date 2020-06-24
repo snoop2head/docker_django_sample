@@ -131,7 +131,7 @@ services:
 	web:
 		build: .
 		# bash command
-		command: bash -c "python /code/maange.py migrate --noinput && python /code/manage.py runserver 0.0.0:0:8000"
+		command: bash -c "python /code/manage.py migrate --noinput && python /code/manage.py runserver 0.0.0:0:8000"
 		# code volume to keep track of chunk of data
 		volumes:
 			- .:/code
@@ -151,7 +151,7 @@ build image and start container
 docker-compose up
 ```
 
-REBUILD image and start container
+REBUILD image and start container (or make separate one)
 
 ```shell
 docker-compose up --build
